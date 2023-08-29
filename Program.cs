@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Fundamentals II Assignment");
+﻿using System;
+
+Console.WriteLine("Fundamentals II Assignment");
 Console.WriteLine();
 //Three Basic Arrays---------------------------------------------------
 // Create an integer array with the values 0 through 9 inside.
@@ -81,15 +83,20 @@ Console.WriteLine($"Updated... We now have a total of {ICFlavors.Count} flavors 
 //User Dictionary---------------------------------------------------
 
 // Create a dictionary that will store string keys and string values.
+Console.WriteLine("9. Create dictionary (people & ICFlavors): ");
+Dictionary<string, string> ICFlavorOfPerson = new Dictionary<string, string>();
 
-
+Random Random Scoop = new Random();
+foreach (string each in ArrayofFourNames)
+{
+    int Randomized = Random.Next(ICFlavors.Count);
+    string RandomFlavor = ICFlavors[RandomScoop];
+    ICFlavorOfPerson[each] = RandomFlavor;
+}
+return ICFlavorOfPerson;
 // Add key/value pairs to the dictionary where:
-
-
-    // Each key is a name from your names array (this can be done by hand or using logic)
-
-
-    // Each value is a randomly selected flavor from your flavors List (remember Random from earlier?)
+// Each key is a name from your names array (this can be done by hand or using logic)
+// Each value is a randomly selected flavor from your flavors List (remember Random from earlier?)
 
 
 // Loop through the dictionary and print out each user's name and their associated ice cream flavor.

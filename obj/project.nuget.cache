@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6sZYVrWHlDevhdpUZNvJcnqbraZWZHCq2wpyszxj55nWq6LpUOEsh86SueWsEckU8Ez1tp1gK8d6eNCZr2CDdw==",
+  "dgSpecHash": "DprHgnV1saZkXUBmEVTSGT8Lutj/Y2E4arQJTvqBpgIlVFdQ/WT8NrhYpbOz7ebmbVgxDCD66rqsRKfhIRB4Pg==",
   "success": true,
-  "projectFilePath": "D:\\CodingDojo\\FundamentalsII\\FundamentalsII.csproj",
+  "projectFilePath": "D:\\CodingDojo\\C#\\FundamentalsII\\FundamentalsII.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

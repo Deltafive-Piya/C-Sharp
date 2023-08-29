@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CodingDojo\\FundamentalsII\\FundamentalsII.csproj",
+      "projectUniqueName": "D:\\CodingDojo\\C#\\FundamentalsII\\FundamentalsII.csproj",
       "projectName": "FundamentalsII",
-      "projectPath": "D:\\CodingDojo\\FundamentalsII\\FundamentalsII.csproj",
+      "projectPath": "D:\\CodingDojo\\C#\\FundamentalsII\\FundamentalsII.csproj",
       "packagesPath": "C:\\Users\\piers\\.nuget\\packages\\",
-      "outputPath": "D:\\CodingDojo\\FundamentalsII\\obj\\",
+      "outputPath": "D:\\CodingDojo\\C#\\FundamentalsII\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\piers\\AppData\\Roaming\\NuGet\\NuGet.Config"

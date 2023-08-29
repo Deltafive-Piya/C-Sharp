@@ -12,3 +12,17 @@ D:\CodingDojo\FundamentalsII\obj\Debug\net7.0\refint\FundamentalsII.dll
 D:\CodingDojo\FundamentalsII\obj\Debug\net7.0\FundamentalsII.pdb
 D:\CodingDojo\FundamentalsII\obj\Debug\net7.0\FundamentalsII.genruntimeconfig.cache
 D:\CodingDojo\FundamentalsII\obj\Debug\net7.0\ref\FundamentalsII.dll
+D:\CodingDojo\C#\FundamentalsII\bin\Debug\net7.0\FundamentalsII.exe
+D:\CodingDojo\C#\FundamentalsII\bin\Debug\net7.0\FundamentalsII.deps.json
+D:\CodingDojo\C#\FundamentalsII\bin\Debug\net7.0\FundamentalsII.runtimeconfig.json
+D:\CodingDojo\C#\FundamentalsII\bin\Debug\net7.0\FundamentalsII.dll
+D:\CodingDojo\C#\FundamentalsII\bin\Debug\net7.0\FundamentalsII.pdb
+D:\CodingDojo\C#\FundamentalsII\obj\Debug\net7.0\FundamentalsII.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodingDojo\C#\FundamentalsII\obj\Debug\net7.0\FundamentalsII.AssemblyInfoInputs.cache
+D:\CodingDojo\C#\FundamentalsII\obj\Debug\net7.0\FundamentalsII.AssemblyInfo.cs
+D:\CodingDojo\C#\FundamentalsII\obj\Debug\net7.0\FundamentalsII.csproj.CoreCompileInputs.cache
+D:\CodingDojo\C#\FundamentalsII\obj\Debug\net7.0\FundamentalsII.dll
+D:\CodingDojo\C#\FundamentalsII\obj\Debug\net7.0\refint\FundamentalsII.dll
+D:\CodingDojo\C#\FundamentalsII\obj\Debug\net7.0\FundamentalsII.pdb
+D:\CodingDojo\C#\FundamentalsII\obj\Debug\net7.0\FundamentalsII.genruntimeconfig.cache
+D:\CodingDojo\C#\FundamentalsII\obj\Debug\net7.0\ref\FundamentalsII.dll
