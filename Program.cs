@@ -1,6 +1,4 @@
-﻿using System;
-
-Console.WriteLine("Fundamentals II Assignment");
+﻿Console.WriteLine("Fundamentals II Assignment");
 Console.WriteLine();
 //Three Basic Arrays---------------------------------------------------
 // Create an integer array with the values 0 through 9 inside.
@@ -78,7 +76,7 @@ Console.WriteLine();
 // Output the length of the List again. It should now be one fewer.
 Console.WriteLine("8. Show New ICFlavors Count: ");
 Console.WriteLine($"Updated... We now have a total of {ICFlavors.Count} flavors to chose from.");
-
+Console.WriteLine();
 
 //User Dictionary---------------------------------------------------
 
@@ -86,17 +84,25 @@ Console.WriteLine($"Updated... We now have a total of {ICFlavors.Count} flavors 
 Console.WriteLine("9. Create dictionary (people & ICFlavors): ");
 Dictionary<string, string> ICFlavorOfPerson = new Dictionary<string, string>();
 
-Random Random Scoop = new Random();
+Random randomScoop = new Random();
 foreach (string each in ArrayofFourNames)
 {
-    int Randomized = Random.Next(ICFlavors.Count);
-    string RandomFlavor = ICFlavors[RandomScoop];
-    ICFlavorOfPerson[each] = RandomFlavor;
+    int randomScoopIndex = randomScoop.Next(ICFlavors.Count);
+    string randomFlavor = ICFlavors[randomScoopIndex];
+    ICFlavorOfPerson[each] = randomFlavor;
 }
-return ICFlavorOfPerson;
+Console.WriteLine();
+
 // Add key/value pairs to the dictionary where:
-// Each key is a name from your names array (this can be done by hand or using logic)
-// Each value is a randomly selected flavor from your flavors List (remember Random from earlier?)
+    // Each key is a name from your names array (this can be done by hand or using logic)
+    // Each value is a randomly selected flavor from your flavors List (remember Random from earlier?)
 
 
 // Loop through the dictionary and print out each user's name and their associated ice cream flavor.
+Console.WriteLine("10. Person ICFlavor preference GUESSES:");
+
+// return ICFlavorOfPerson; //Yeah that didnt work...rework...
+foreach (var FlavorGuess in ICFlavorOfPerson)
+{
+    Console.WriteLine($"{FlavorGuess.Key} prefers {FlavorGuess.Value} flavor.");
+}
